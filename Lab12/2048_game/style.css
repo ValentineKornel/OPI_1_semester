@@ -1,0 +1,162 @@
+li {
+  display: inline-block;
+  margin-left: 5%;
+}
+
+header{
+background: linear-gradient(45deg, #30cfd0, #49bf00);
+position: fixed;
+width : 100%;
+z-index: 100;
+opacity : 100%;
+}
+
+header h2{
+  display: inline-block;
+  font-family: Courier New;
+  color: black;
+}
+
+header a{
+  text-decoration: none;
+
+}
+header a:link {
+ color: black; /* Цвет непосещенных ссылок */
+}
+header a:visited {
+ color: black; /* Цвет посещенных ссылок */
+}
+
+
+
+.abutton {
+  height: 42px;
+	border: none;
+	color: 	#0F273F;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+  box-shadow: 7px 4px 6px 1px rgba(1, 140, 246, 0.2);
+}
+
+.abutton:hover {
+  transition: 2s;
+	background: rgba(0,0,0,0);
+	color: black;
+	box-shadow: 8px 10px 8px 0px rgba(170, 6, 246, 0.59) inset;
+}
+
+body {
+max-width: 100%; /*максимальная ширина страницы*/
+margin: auto; /*равные внешние отступы слева и справа*/ /*цвет фона*/
+background: gray;
+background-attachment: fixed;
+}
+
+.maindiv{
+  opacity : 85%;
+  padding-top: 10%;
+  color: white;
+}
+
+h1 {
+  font-family: Courier New;
+}
+
+h2 {
+  font-family: Courier New;
+}
+
+p {
+font-size:4;
+font-family: Courier New;
+}
+
+
+.type_a{
+padding-bottom: 15%;
+}
+
+.type_a p{
+max-width:50%;
+float:left;
+padding-bottom: 20%;
+}
+
+.type_a a {
+display: block;
+text-align: center;
+}
+
+
+.type_b{
+padding-bottom: 25%;
+}
+
+.type_b p {
+width:40%;
+float:right;
+text-align: right;
+}
+
+.type_b h1 {
+padding-top:20%;
+text-align: right;
+}
+
+.type_b h2 {
+padding-top:25%;
+text-align: right;
+}
+
+
+.type_c{
+padding-bottom: 20%;
+}
+
+
+
+.type_c h1{
+padding-top: 20%;
+text-align: left;
+}
+
+.type_c h2{
+text-align: left;
+}
+
+figure{
+  margin-bottom: 100px;
+  display: block;
+  float: left;
+  width: 250px;
+  height: 250px;
+
+}
+
+figure img {
+  width:100%;
+}
+
+
+footer {
+  margin-top: 150px;
+background: linear-gradient(45deg, #30cfd0, #49bf00);
+height: 45px;
+}
+
+footer p{
+  padding-top: 1%;
+  margin:auto;
+  color:black;
+  width: 190px;
+}
+
+.git {
+  float:none;
+  width: 75%
+}
